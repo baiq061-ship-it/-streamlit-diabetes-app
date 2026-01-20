@@ -1,0 +1,15 @@
+{
+  "best_model_path": "./diabetes_analysis_results\\best_model.pkl",
+  "all_models_path": "./diabetes_analysis_results\\all_optimized_models.pkl",
+  "best_params_path": "./diabetes_analysis_results\\best_parameters.json",
+  "feature_info": {
+    "feature_names": [
+      "CA病因",
+      "肾上腺素总量",
+      "ROSC后白蛋白",
+      "心肺复苏时间"
+    ],
+    "scaler": "StandardScaler()",
+    "sampling": "SMOTEENN(random_state=42)"
+  }
+}
